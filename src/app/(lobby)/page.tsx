@@ -18,7 +18,7 @@ export default function Home () {
             <Balancer className='font-cairo text-center space-y-6 relative'>
               {/* <div className='w-full h-4 inset-0 m-auto bg-green-500 absolute top-0 -z-10 before:absolute before:h-[100px] before:w-full before:bg-red-300' /> */}
               <h1 className='text-5xl sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
-                El orden de los factores <br className='hidden sm:block' /><span className='text-emah'>Si</span> <br className='sm:hidden' /><TypeAnimation sequence={['altera el producto']} speed={50} cursor={false} />
+                El orden de los factores <br className='hidden sm:block' /><span className='text-emah'>Si</span> <br className='sm:hidden' /><TypeAnimation sequence={[300, 'altera el producto']} speed={50} cursor={false} />
               </h1>
               <p className='text-xl text-muted-foreground tracking-wider leading-relaxed'>
                 Impulsamos a emprendedores y empresarios que ofrecen productos intangibles de alto
