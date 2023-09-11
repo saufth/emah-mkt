@@ -6,7 +6,7 @@ import { Button } from '../ui/Button'
 
 export default async function SiteHeader () {
   return (
-    <header className='w-full sticky top-0 z-40 border-b dark:bg-black/20 dark:backdrop-blur-sm dark:backdrop-saturate-200'>
+    <header className='w-full fixed top-0 z-40 border-b dark:bg-black/20 dark:backdrop-blur-sm dark:backdrop-saturate-200'>
       <div className='max-w-8xl h-20 mx-auto px-4 flex items-center justify-between lg:px-8'>
         <Link
           href='/'

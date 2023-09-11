@@ -46,7 +46,7 @@ export const metadata: Metadata = {
 export default function RootLayout ({ children }: LayoutProps) {
   return (
     <html lang='es' suppressHydrationWarning>
-      <body className={cn(fontCairo.variable, 'min-h-screen bg-background antialiased')}>
+      <body className={cn(fontCairo.variable, 'min-h-screen bg-background antialiased overflow-hidden')}>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
           {children}
         </ThemeProvider>
