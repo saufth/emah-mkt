@@ -1,5 +1,8 @@
 'use client'
-import { TypeAnimation as ReactTypeAnimation, type Props as TypeAnimationProps } from 'react-type-animation'
+import React from 'react'
+import { TypeAnimation as ReactTypeAnimation } from 'react-type-animation'
+
+type TypeAnimationProps = React.ComponentProps<typeof ReactTypeAnimation>
 
 export function TypeAnimation (props: TypeAnimationProps) {
   return (
