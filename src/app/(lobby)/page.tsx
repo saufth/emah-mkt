@@ -6,8 +6,8 @@ export default function Home () {
   return (
     <>
       <section className='relative'>
-        <div className='absolute max-w-xl h-2xl top-48 left-0 right-0 mx-auto -translate-x-1/4 rounded-full bg-gradient-radial from-sky-400/10 to-transparent blur-2xl content-[""] -z-20' />
-        <div className='absolute max-w-2xl h-md top-48 left-0 right-0 mx-auto rounded-full bg-gradient-radial from-emah/30 to-transparent blur-2xl content-[""] -z-30' />
+        <div className='absolute max-w-2xl h-2xl top-12 md:top-48 left-0 right-0 mx-auto -translate-x-1/4 rounded-full bg-gradient-radial from-sky-400/10 to-transparent blur-2xl content-[""] -z-20' />
+        <div className='absolute max-w-xl h-xs top-36 left-0 right-0 mx-auto rounded-full bg-gradient-radial from-emah/20 to-transparent blur-2xl content-[""] -z-10' />
         {/* <div className='absolute before:absolute before:h-full before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[""] after:absolute before:-z-20 after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-full after:bg-gradient-conic after:from-emah/30 after:via-emah/10 after:blur-2xl after:content-[""] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]' /> */}
         <div className='max-w-7xl relative px-4 md:px-6 mx-auto pt-36 sm:pt-48'>
           <div className='flex flex-col items-center gap-y-6 relative'>
