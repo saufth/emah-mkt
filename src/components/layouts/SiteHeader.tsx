@@ -1,8 +1,7 @@
 import { Icons } from '@/components/Icons'
-// import { Button, Flex } from '@radix-ui/themes'
 import { ThemeToggle } from './ThemeToggle'
 import Link from 'next/link'
-import { Button } from '../ui/Button'
+import { Button } from '@nextui-org/button'
 
 export default async function SiteHeader () {
   return (
@@ -15,10 +14,10 @@ export default async function SiteHeader () {
           <Icons.Logomark className='w-auto h-8 fill-primary block sm:hidden' />
         </Link>
         <div className='flex justify-end items-center gap-x-4'>
-          <Button size='lg' className='hidden md:block'>
+          <Button color='primary' radius='sm' size='md' className='hidden md:block'>
             Contáctanos
           </Button>
-          <Button size='sm' className='md:hidden'>
+          <Button color='primary' radius='sm' size='sm' className='md:hidden'>
             Contáctanos
           </Button>
           <ThemeToggle />

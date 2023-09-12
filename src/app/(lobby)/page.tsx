@@ -1,15 +1,15 @@
 import { TypeAnimation } from '@/components/TypeAnimation'
 import { Badge } from '@/components/ui/Badge'
-import { Button } from '@/components/ui/Button'
+import { Button } from '@nextui-org/button'
 import { Balancer } from 'react-wrap-balancer'
 
 export default function Home () {
   return (
     <>
-      <section className=''>
-        <div className='absolute w-full lg:w-1/3 h-xs translate top-24 right-0 left-0 mx-auto rounded-full bg-gradient-radial from-emah/10 to-transparent blur-2xl content-[""] -z-10 dark:opacity-60' />
-        <div className='absolute w-full lg:w-1/2 h-md translate top-52 right-0 left-0 mx-auto rounded-full bg-gradient-radial from-sky-400/10 to-transparent blur-2xl content-[""] -z-20 dark:opacity-60' />
-        <div className='max-w-7xl px-4 md:px-6 mx-auto pt-32 sm:pt-36 relative'>
+      <section className='relative'>
+        <div className='absolute w-full lg:w-1/3 h-xs translate top-16 right-0 left-0 mx-auto rounded-full bg-gradient-radial from-emah/10 to-transparent blur-2xl content-[""] dark:opacity-60' />
+        <div className='absolute w-full lg:w-1/2 h-md translate top-36 right-0 left-0 mx-auto rounded-full bg-gradient-radial from-sky-400/10 to-transparent blur-2xl content-[""] dark:opacity-60' />
+        <div className='max-w-7xl px-4 md:px-6 mx-auto pt-8 sm:pt-36 relative'>
           <div className='flex flex-col items-center gap-y-6'>
             <Badge className='rounded-md px-3.5 py-1.5' variant='secondary'>
               ANTI-MARKETING
@@ -23,7 +23,7 @@ export default function Home () {
                 valor para sus clientes a consolidar sus modelos de negocios.
               </p>
             </Balancer>
-            <Button size='full' className='sm:mt-4'>
+            <Button color='primary' radius='sm' size='lg'>
               Contáctanos
             </Button>
           </div>

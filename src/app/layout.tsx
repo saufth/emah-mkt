@@ -11,6 +11,7 @@ import { type Metadata } from 'next'
 import { fontCairo } from '@/lib/fonts'
 // Styles
 import './globals.css'
+import NextUIProvider from '@/components/layouts/NextUIProvider'
 
 export const metadata: Metadata = {
   title: {
@@ -48,7 +49,9 @@ export default function RootLayout ({ children }: LayoutProps) {
     <html lang='es' suppressHydrationWarning>
       <body className={cn(fontCairo.variable, 'min-h-screen bg-background antialiased')}>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
-          {children}
+          <NextUIProvider>
+            {children}
+          </NextUIProvider>
         </ThemeProvider>
       </body>
     </html>

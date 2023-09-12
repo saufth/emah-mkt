@@ -1,6 +1,6 @@
 'use client'
 // Components
-import { Button } from '@/components/ui/Button'
+import { Button } from '@nextui-org/button'
 import { MoonIcon, SunIcon } from '@radix-ui/react-icons'
 // Hooks
 import { useTheme } from 'next-themes'
@@ -10,8 +10,7 @@ export function ThemeToggle () {
 
   return (
     <Button
-      variant='ghost'
-      size='icon'
+      isIconOnly
       onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
     >
       <SunIcon
