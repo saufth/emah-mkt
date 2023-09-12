@@ -5,7 +5,7 @@ import { ThemeToggle } from '@/components/layouts/ThemeToggle'
 
 export default function Navbar () {
   return (
-    <NavbarPrimitive className='py-2' maxWidth='xl'>
+    <NavbarPrimitive className='sm:py-2' maxWidth='xl'>
       <NavbarBrand>
         <Link href='/'>
           <Icons.Logoname className='w-auto h-9 fill-primary hidden sm:block' />
