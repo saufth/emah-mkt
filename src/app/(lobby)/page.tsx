@@ -15,8 +15,9 @@ export default function Home () {
         </div>
         <div className='max-w-7xl px-4 md:px-6 mx-auto pt-8 sm:pt-36 relative z-10'>
           <div className='flex flex-col items-center gap-y-6'>
-            <Badge className='rounded-md px-3.5 py-1.5' variant='secondary'>
-              ANTI-MARKETING
+            <Badge className='sm:text-lg pt-3 pb-3.5 px-1 sm:pt-3.5 sm:pb-4 sm:px-2' variant='bordered'>
+              <span className='text-emah font-bold'>-mkt</span>
+              <span className='text-muted-foreground'>+hacks</span>
             </Badge>
             <Balancer className='font-cairo text-center space-y-6'>
               <h1 className='text-[2.75rem] leading-none sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
