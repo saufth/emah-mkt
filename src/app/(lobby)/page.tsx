@@ -19,15 +19,15 @@ export default function Home () {
               <span className='text-emah font-bold'>-mkt</span>
               <span className='text-muted-foreground'>+hacks</span>
             </Badge>
-            <Balancer className='font-cairo text-center space-y-6'>
-              <h1 className='text-[2.75rem] leading-none sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
+            <div className='font-cairo text-center space-y-6'>
+              <Balancer as='h1' className='text-[2.75rem] leading-none sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
                 La forma <span className='text-emah'>elocuente</span> de conectar con tus clientes
-              </h1>
-              <p className='text-lg sm:text-xl text-muted-foreground tracking-wider leading-relaxed'>
+              </Balancer>
+              <Balancer as='p' className='text-lg sm:text-xl text-muted-foreground tracking-wider leading-relaxed'>
                 Impulsamos a emprendedores y empresarios a consolidar su modelo de negocio,
                 ofreciendo productos intangibles de alto valor agregado para sus clientes.
-              </p>
-            </Balancer>
+              </Balancer>
+            </div>
             <Button color='primary' radius='sm' size='lg'>
               Contáctanos
             </Button>
@@ -35,7 +35,7 @@ export default function Home () {
         </div>
       </section>
       <video
-        className='max-w-7xl w-full h-auto mt-24 sm:mt-48 object-cover object-center aspect-video xl:mx-auto xl:border-8 xl:border-border xl:rounded-xl'
+        className='max-w-7xl w-full h-auto mt-16 md:mt-24 lg:mt-36 object-cover object-center aspect-video xl:mx-auto xl:border-8 xl:border-border xl:rounded-xl'
         width={1920}
         height={1080}
         controls={false}
