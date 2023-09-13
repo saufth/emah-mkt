@@ -23,7 +23,7 @@ export default function Home () {
               <h1 className='text-[2.75rem] leading-none sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
                 La forma <span className='text-emah'>elocuente</span> de conectar con tus clientes
               </h1>
-              <p className='text-xl text-muted-foreground tracking-wider leading-relaxed'>
+              <p className='text-lg sm:text-xl text-muted-foreground tracking-wider leading-relaxed'>
                 Impulsamos a emprendedores y empresarios a consolidar su modelo de negocio,
                 ofreciendo productos intangibles de alto valor agregado para sus clientes.
               </p>
