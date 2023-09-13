@@ -15,13 +15,13 @@ export default function Home () {
         </div>
         <div className='max-w-7xl px-4 md:px-6 mx-auto pt-8 sm:pt-24 relative z-10'>
           <div className='flex flex-col items-center gap-y-6'>
-            <Badge className='sm:text-lg pt-3 pb-3.5 px-0.5 sm:pt-3.5 sm:pb-4 sm:px-1' variant='bordered'>
+            <Badge className='sm:text-lg py-3 px-0.5 sm:py-3.5 sm:px-1' variant='bordered'>
               <span className='text-emah font-bold'>-mkt</span>
               <span className='text-muted-foreground'>+hacks</span>
             </Badge>
             <Balancer className='font-cairo text-center space-y-6'>
               <h1 className='text-[2.75rem] leading-none sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
-                El orden de los factores <span className='text-emah'>Sí</span> altera el producto
+                La forma <span className='text-emah'>elocuente</span> de conectar con tus clientes
               </h1>
               <p className='text-xl text-muted-foreground tracking-wider leading-relaxed'>
                 Impulsamos a emprendedores y empresarios a consolidar su modelo de negocio,
@@ -35,7 +35,7 @@ export default function Home () {
         </div>
       </section>
       <video
-        className='max-w-7xl w-full h-auto mt-24 sm:mt-48 object-cover object-center aspect-video sm:mx-auto sm:border-8 sm:border-border sm:rounded-xl'
+        className='max-w-7xl w-full h-auto mt-24 sm:mt-48 object-cover object-center aspect-video xl:mx-auto xl:border-8 xl:border-border xl:rounded-xl'
         width={1920}
         height={1080}
         controls={false}
