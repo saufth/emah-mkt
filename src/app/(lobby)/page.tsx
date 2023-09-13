@@ -9,8 +9,10 @@ export default function Home () {
   return (
     <>
       <section className='relative'>
-        <div className='absolute w-2/3 md:w-1/2 lg:w-1/4 h-md translate top-16 right-0 left-0 mx-auto rounded-full bg-gradient-conic from-sky-200 via-blue-200 blur-2xl content-[""] opacity-10 dark:from-sky-900/40 dark:via-blue-600/40' />
-        <div className='absolute w-1/2 lg:w-sm h-sm translate top-6 sm:top-12 left-0 right-0 mx-auto rounded-full bg-gradient-radial from-emah dark:from-emah/40 dark:to-blue-700/30 to-transparent blur-2xl content-[""] opacity-10' />
+        <div className='w-full h-full absolute top-0'>
+          <div className='absolute w-2/3 md:w-1/2 lg:w-1/4 h-md translate top-16 right-0 left-0 mx-auto rounded-full bg-gradient-conic from-sky-200 via-blue-200 blur-2xl content-[""] opacity-10 dark:from-sky-900/40 dark:via-blue-600/40' />
+          <div className='absolute w-1/2 lg:w-sm h-sm translate top-6 sm:top-12 left-0 right-0 mx-auto rounded-full bg-gradient-radial from-emah dark:from-emah/40 dark:to-blue-700/30 to-transparent blur-2xl content-[""] opacity-10' />
+        </div>
         <div className='max-w-7xl px-4 md:px-6 mx-auto pt-8 sm:pt-36 relative z-10'>
           <div className='flex flex-col items-center gap-y-6'>
             <Badge className='rounded-md px-3.5 py-1.5' variant='secondary'>
