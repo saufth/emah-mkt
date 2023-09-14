@@ -17,7 +17,7 @@ export default function Home () {
               <span className='text-emah font-bold'>-mkt</span>+hacks
             </Chip>
             <div className='font-cairo text-center space-y-6'>
-              <Balancer as='h1' className='text-5xl leading-none sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
+              <Balancer as='h1' className='text-[2.75rem] leading-none sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
                 No necesitas más ni mejor mejor <span className='relative px-1 sm:px-1.5 lg:px-2 text-secondary'><span className='relative z-10'>marketing</span><span className='w-full h-14 sm:h-[4.5rem] lg:h-20 absolute bg-emah top-2 bottom-0 left-0 my-auto' /></span>
               </Balancer>
               <Balancer as='p' className='text-lg sm:text-xl text-muted-foreground tracking-wider leading-relaxed'>
@@ -45,7 +45,7 @@ export default function Home () {
           <source src='/video/emah.mp4' type='video/mp4' />
         </video>
         <div className='w-full h-full absolute top-0'>
-          <div className='absolute w-full lg:w-2/3 xl:w-1/2 h-lg translate top-24 right-0 left-0 mx-auto rounded-full bg-gradient-conic from-sky-200 via-blue-300 blur-2xl content-[""] opacity-10 dark:from-sky-950' />
+          <div className='absolute w-full lg:w-2/3 xl:w-1/2 h-md translate top-24 right-0 left-0 mx-auto rounded-full bg-gradient-conic from-sky-200 via-blue-300 blur-2xl content-[""] opacity-10 dark:from-sky-950' />
           <div className='absolute w-3/4 lg:w-2xl h-sm translate top-6 sm:top-24 left-0 right-0 mx-auto rounded-full bg-gradient-radial from-emah/60 via-emah/40 dark:from-emah/30 dark:via-emah/20 to-transparent blur-2xl content-[""] opacity-20' />
         </div>
         <div className='w-full h-full absolute top-0 overflow-hidden'>
