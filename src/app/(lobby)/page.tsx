@@ -18,7 +18,7 @@ export default function Home () {
               <span className='text-muted-foreground'>+hacks</span>
             </Chip>
             <div className='font-cairo text-center space-y-6'>
-              <Balancer as='h1' className='text-5xl leading-none sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
+              <Balancer as='h1' className='text-[2.75rem] leading-none sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
                 No necesitas más ni mejor mejor <span className='text-emah'>marketing</span>
               </Balancer>
               <Balancer as='p' className='text-lg sm:text-xl text-muted-foreground tracking-wider leading-relaxed'>
