@@ -1,8 +1,5 @@
 import type { Config } from 'tailwindcss'
-import plugin from 'tailwindcss/plugin'
 import { nextui } from '@nextui-org/react'
-
-const { default: flattenColorPalette } = require('tailwindcss/lib/util/flattenColorPalette')
 
 /** Default values for sizing and spacing */
 const breakpoints = {
@@ -103,17 +100,7 @@ const config: Config = {
     }
   },
   plugins: [
-    nextui(),
-    require('tailwindcss-animate'),
-    require('@tailwindcss/typography'),
-    plugin(function ({ matchUtilities, theme }) {
-      matchUtilities(
-        {
-          highlight: (value) => ({ boxShadow: `inset 0 1px 0 0 ${value}` })
-        },
-        { values: flattenColorPalette(theme('backgroundColor')), type: 'color' }
-      )
-    })
+    nextui()
   ],
   corePlugins: {
     container: false

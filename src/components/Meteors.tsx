@@ -1,7 +1,7 @@
 'use client'
+import React from 'react'
 import useDimensions from '@/hooks/useDimensions'
 import clsx from 'clsx'
-import React from 'react'
 
 const Meteors = ({ number }: { number?: number }) => {
   const { width } = useDimensions()
