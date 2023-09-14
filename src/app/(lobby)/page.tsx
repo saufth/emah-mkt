@@ -4,6 +4,7 @@ import { Button } from '@nextui-org/button'
 import { Balancer } from 'react-wrap-balancer'
 // Utils
 import dynamic from 'next/dynamic'
+import { Icons } from '@/components/Icons'
 
 const Meteors = dynamic(() => import('@/components/Meteors'), { ssr: false })
 
@@ -18,7 +19,7 @@ export default function Home () {
             </Chip>
             <div className='font-cairo text-center space-y-6'>
               <Balancer as='h1' className='relative text-[2.75rem] leading-none sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
-                <span className='relative z-10'>No necesitas más ni mejor mejor</span> <span className='relative px-1 sm:px-1.5 lg:px-2 text-secondary'><span className='relative z-10'>marketing</span><span className='w-full h-12 sm:h-[4.5rem] lg:h-20 absolute bg-emah top-2 bottom-0 left-0 my-auto' /></span>
+                <span className='relative'><Icons.Doodle className='w-auto h-20 sm:h-28 lg:h-32 fill-emah absolute top-1 lg:top-2 my-auto -left-12 sm:-left-16 lg:-left-20 -z-10' />No necesitas más ni mejor mejor</span> <span className='text-emah'>marketing</span>
               </Balancer>
               <Balancer as='p' className='text-lg sm:text-xl text-muted-foreground tracking-wider leading-relaxed'>
                 Impulsamos a emprendedores y empresarios a consolidar su modelo de negocio,
