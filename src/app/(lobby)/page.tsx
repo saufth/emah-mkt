@@ -17,8 +17,8 @@ export default function Home () {
               <span className='text-emah font-bold'>-mkt</span>+hacks
             </Chip>
             <div className='font-cairo text-center space-y-6'>
-              <Balancer as='h1' className='text-[2.75rem] leading-none sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
-                No necesitas más ni mejor mejor <span className='relative px-1 sm:px-1.5 lg:px-2 text-secondary'><span className='relative z-10'>marketing</span><span className='w-full h-14 sm:h-[4.5rem] lg:h-20 absolute bg-emah top-2 bottom-0 left-0 my-auto' /></span>
+              <Balancer as='h1' className='relative text-[2.75rem] leading-none sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black text-foreground'>
+                <span className='relative z-10'>No necesitas más ni mejor mejor</span> <span className='relative px-1 sm:px-1.5 lg:px-2 text-secondary'><span className='relative z-10'>marketing</span><span className='w-full h-14 sm:h-[4.5rem] lg:h-20 absolute bg-emah top-2 bottom-0 left-0 my-auto' /></span>
               </Balancer>
               <Balancer as='p' className='text-lg sm:text-xl text-muted-foreground tracking-wider leading-relaxed'>
                 Impulsamos a emprendedores y empresarios a consolidar su modelo de negocio,
