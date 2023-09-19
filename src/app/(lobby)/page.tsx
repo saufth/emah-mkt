@@ -12,13 +12,13 @@ const Meteors = dynamic(() => import('@/components/Meteors'), { ssr: false })
 export default function Home () {
   return (
     <>
-      <section className='relative dark:bg-gradient-to-b dark:from-black dark:via-[#222222] dark:to-[#222222] lg:pb-24'>
+      <section className='relative dark:bg-gradient-to-b dark:from-black dark:via-zinc-900 dark:to-zinc-900 lg:pb-24'>
         <div className='max-w-7xl px-4 md:px-6 mx-auto pt-4 sm:pt-16 relative z-10'>
           <div className='flex flex-col items-center gap-y-8'>
             <Chip className='py-3.5 px-1 border-1 bg-secondary' variant='bordered'>
-              <div className='flex gap-x-2 items-center'>
-                <span><span className='text-emah font-semibold'>-mkt</span>+hacks</span>
-                <Icons.ArrowRightCircle size={12} className='stroke-muted-foreground stroke-[1.5px]' />
+              <div className='flex gap-x-1 items-center'>
+                <span><span className='text-emah font-semibold'>-mkt</span>+hacks =</span>
+                <Icons.Connect className='w-4 h-auto' />
               </div>
             </Chip>
             <div className='font-cairo text-center space-y-6'>
