@@ -74,7 +74,7 @@
 
 @layer utilities {
   .text-h1 {
-    @apply leading-none text-[3.25rem] sm:text-7xl lg:text-[5rem] font-black;
+    @apply leading-none text-5xl sm:text-6xl lg:text-7xl font-black;
   }
 
   .text-h2 {
