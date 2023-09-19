@@ -12,11 +12,14 @@ const Meteors = dynamic(() => import('@/components/Meteors'), { ssr: false })
 export default function Home () {
   return (
     <>
-      <section className='relative dark:bg-gradient-to-b dark:from-black dark:via-[#222222] dark:to-[#222222] lg:pb-12'>
+      <section className='relative dark:bg-gradient-to-b dark:from-black dark:via-[#222222] dark:to-[#222222] lg:pb-24'>
         <div className='max-w-7xl px-4 md:px-6 mx-auto pt-4 sm:pt-16 relative z-10'>
           <div className='flex flex-col items-center gap-y-8'>
             <Chip className='py-3.5 px-1 border-1 bg-secondary' variant='bordered'>
-              <span><span className='text-emah font-semibold'>-mkt</span>+hacks</span>
+              <div className='flex gap-x-2 items-center'>
+                <span><span className='text-emah font-semibold'>-mkt</span>+hacks</span>
+                <Icons.ArrowRightCircle size={12} className='stroke-muted-foreground stroke-[1.5px]' />
+              </div>
             </Chip>
             <div className='font-cairo text-center space-y-6'>
               <Balancer as='h1' className='relative'>
@@ -54,7 +57,7 @@ export default function Home () {
         </div>
       </section>
       <section className='dark:bg-black border-b sm:border-y'>
-        <div className='max-w-7xl mx-auto py-12 lg:py-24 px-4 md:px-6 space-y-12 sm:space-y-16'>
+        <div className='max-w-7xl mx-auto py-12 lg:py-24 px-4 md:px-6 space-y-8 sm:space-y-16'>
           <div className='space-y-4 sm:space-y-6 text-center'>
             <Balancer as='h2'>
               <span className='text-h text-h2'>Lorem ipsum dolor sit amet</span>
@@ -63,37 +66,37 @@ export default function Home () {
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid esse cupiditate totam ullam quod sunt recusandae porro nobis, illum eos.
             </Balancer>
           </div>
-          <div className='flex flex-col lg:flex-row gap-8'>
+          <div className='flex flex-col lg:flex-row gap-4'>
             <Card className='lg:max-w-[400px] border dark:border-zinc-700 dark:bg-zinc-950 p-1'>
               <div className='dark:bg-gradient-to-t dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-900 w-full h-full rounded-[9px]'>
                 <CardHeader>
-                  <Icons.Define className='w-10 sm:w-12 h-auto mb-1' />
+                  <Icons.Define className='w-12 h-auto' />
                 </CardHeader>
-                <CardBody className='space-y-3'>
-                  <h3 className='text-lg md:text-xl font-bold'>Define</h3>
-                  <Balancer as='p' className='text-muted-foreground'>Make beautiful websites regardless of your design experience.</Balancer>
+                <CardBody className='space-y-2'>
+                  <h3 className='text-2xl font-semibold'>Delimita</h3>
+                  <Balancer as='p' className='text-sm text-muted-foreground'>Make beautiful websites regardless of your design experience.</Balancer>
                 </CardBody>
               </div>
             </Card>
             <Card className='lg:max-w-[400px] border dark:border-zinc-700 dark:bg-zinc-950 p-1'>
               <div className='dark:bg-gradient-to-t dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-900 w-full h-full rounded-[9px]'>
                 <CardHeader>
-                  <Icons.Integrate className='w-10 sm:w-12 h-auto mb-1' />
+                  <Icons.Integrate className='w-12 h-auto' />
                 </CardHeader>
-                <CardBody className='space-y-3'>
-                  <h3 className='text-lg md:text-xl font-bold'>Integra</h3>
-                  <Balancer as='p' className='text-muted-foreground'>Make beautiful websites regardless of your design experience.</Balancer>
+                <CardBody className='space-y-2'>
+                  <h3 className='text-2xl font-semibold'>Integra</h3>
+                  <Balancer as='p' className='text-sm text-muted-foreground'>Make beautiful websites regardless of your design experience.</Balancer>
                 </CardBody>
               </div>
             </Card>
             <Card className='lg:max-w-[400px] border dark:border-zinc-700 dark:bg-zinc-950 p-1'>
               <div className='dark:bg-gradient-to-t dark:from-zinc-950 dark:via-zinc-900 dark:to-zinc-900 w-full h-full rounded-[9px]'>
                 <CardHeader>
-                  <Icons.Connect className='w-10 sm:w-12 h-auto mb-1' />
+                  <Icons.Connect className='w-12 h-auto' />
                 </CardHeader>
-                <CardBody className='space-y-3'>
-                  <h3 className='text-lg md:text-xl font-bold'>Conecta</h3>
-                  <Balancer as='p' className='text-muted-foreground'>Make beautiful websites regardless of your design experience.</Balancer>
+                <CardBody className='space-y-2'>
+                  <h3 className='text-2xl font-semibold'>Implementa</h3>
+                  <Balancer as='p' className='text-sm text-muted-foreground'>Make beautiful websites regardless of your design experience.</Balancer>
                 </CardBody>
               </div>
             </Card>

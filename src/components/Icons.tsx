@@ -1,6 +1,7 @@
 // Components
 import {
   AlertTriangle,
+  ArrowRightCircle,
   ArrowLeftRight,
   CalendarCheck,
   CircleDollarSign,
@@ -25,6 +26,7 @@ export type Icon = LucideIcon
 
 export const Icons = {
   Add: Plus,
+  ArrowRightCircle,
   CalendarCheck,
   CircleDollar: CircleDollarSign,
   Check,
