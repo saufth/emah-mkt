@@ -93,7 +93,7 @@ export const Icons = {
         <g>
           <path
             className='stroke-emah fill-none stroke-[6]'
-            style={{ strokeMiterlimit: 10, strokeDasharray: '9.879874e-03,0,12.1424,12.1325' }}
+            style={{ strokeDasharray: '9.879874e-03,0,12.1424,12.1325' }}
             d='M99.2,19.5L9.1,175.6c-11.5,20,2.8,44.9,25.9,44.9H215c23.1,0,37.4-25,25.9-44.9L150.8,19.5
               C139.4-0.5,110.7-0.5,99.2,19.5z'
           />
@@ -112,7 +112,7 @@ export const Icons = {
         <g>
           <path
             className='stroke-emah fill-none stroke-[6]'
-            style={{ strokeMiterlimit: 10, strokeDasharray: '9.879874e-03,0,12.1424,12.1325' }}
+            style={{ strokeDasharray: '9.879874e-03,0,12.1424,12.1325' }}
             d='M99.2,19.5L9.1,175.6c-11.5,20,2.8,44.9,25.9,44.9H215c23.1,0,37.4-25,25.9-44.9L150.8,19.5
               C139.4-0.5,110.7-0.5,99.2,19.5z'
           />
@@ -132,9 +132,34 @@ export const Icons = {
         {...props}
       >
         <g>
-          <line style={{ strokeMiterlimit: 16 }} className='stroke-emah fill-none stroke-[16]' x1='111.9' y1='56.2' x2='46.8' y2='169.6' />
-          <line style={{ strokeMiterlimit: 16 }} className='stroke-emah fill-none stroke-[16]' x1='204.5' y1='168.8' x2='139.3' y2='55.5' />
-          <line style={{ strokeMiterlimit: 16 }} className='stroke-emah fill-none stroke-[16]' x1='190' y1='192' x2='60.1' y2='192' />
+          <path
+            className='stroke-emah fill-none stroke-[6]'
+            style={{ strokeDasharray: '9.879874e-03,0,12.1424,12.1325' }}
+            d='M99.2,19.5L9.1,175.6c-11.5,20,2.8,44.9,25.9,44.9H215c23.1,0,37.4-25,25.9-44.9L150.8,19.5
+              C139.4-0.5,110.7-0.5,99.2,19.5z'
+          />
+          <line className='stroke-emah fill-none stroke-[6]' x1='111.9' y1='56.2' x2='46.8' y2='169.6' />
+          <line className='stroke-emah fill-none stroke-[6]' x1='204.5' y1='168.8' x2='139.3' y2='55.5' />
+          <line className='stroke-emah fill-none stroke-[6]' x1='190' y1='192' x2='60.1' y2='192' />
+          <circle className='fill-emah' cx='125.1' cy='32.7' r='22.2' />
+          <circle className='fill-emah' cx='217' cy='192.8' r='22.2' />
+          <circle className='fill-emah' cx='33.2' cy='192.8' r='22.2' />
+        </g>
+      </svg>
+    )
+  },
+  Proposal: (props: LucideProps) => {
+    return (
+      <svg
+        width={250}
+        height={255}
+        viewBox='0 0 250 225'
+        {...props}
+      >
+        <g>
+          <line className='stroke-emah fill-none stroke-[16]' x1='111.9' y1='56.2' x2='46.8' y2='169.6' />
+          <line className='stroke-emah fill-none stroke-[16]' x1='204.5' y1='168.8' x2='139.3' y2='55.5' />
+          <line className='stroke-emah fill-none stroke-[16]' x1='190' y1='192' x2='60.1' y2='192' />
           <circle className='fill-emah' cx='125.1' cy='32.7' r='22.2' />
           <circle className='fill-emah' cx='217' cy='192.8' r='22.2' />
           <circle className='fill-emah' cx='33.2' cy='192.8' r='22.2' />

@@ -18,7 +18,7 @@ export default function Home () {
             <Chip className='py-3.5 px-1 border-1 bg-secondary' variant='bordered'>
               <div className='flex gap-x-1 items-center'>
                 <span><span className='text-emah font-semibold'>-mkt</span>+hacks =</span>
-                <Icons.Connect className='w-4 h-auto' />
+                <Icons.Proposal className='w-4 h-auto' />
               </div>
             </Chip>
             <div className='font-cairo text-center space-y-6'>
