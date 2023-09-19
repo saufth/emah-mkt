@@ -7,7 +7,7 @@ import { useState } from 'react'
 
 export default function Navbar () {
   const { scrollY } = useScroll()
-  const [isOnTop, setIsOnTop] = useState(true)
+  const [isOnTop, setIsOnTop] = useState(false)
 
   useMotionValueEvent(scrollY, 'change', (latestScrollY) => {
     setIsOnTop(latestScrollY > 0)
@@ -17,8 +17,7 @@ export default function Navbar () {
     <NextUINavbar className='py-1 sm:py-2 bg-black/0' maxWidth='2xl' isBordered={isOnTop}>
       <NavbarBrand>
         <Link href='/'>
-          <Icons.Logoname className='w-auto h-9 fill-primary hidden sm:block' />
-          <Icons.Logomark className='w-auto h-8 fill-primary block sm:hidden' />
+          <Icons.Logoname className='w-auto h-8 sm:h-9 fill-primary' />
         </Link>
       </NavbarBrand>
       <NavbarContent className='hidden sm:flex gap-4' justify='center'>

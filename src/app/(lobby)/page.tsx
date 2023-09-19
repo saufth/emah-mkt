@@ -20,7 +20,7 @@ export default function Home () {
             </Chip>
             <div className='font-cairo text-center space-y-6'>
               <Balancer as='h1' className='relative'>
-                <span className='relative text-h1 text-h'><Icons.Doodle className='w-auto h-20 sm:h-28 lg:h-32 fill-emah absolute top-1 lg:top-2 my-auto -left-9 sm:-left-12 lg:-left-16 -z-10' />No necesitas más ni mejor marketing</span>
+                <span className='relative text-h1 text-h'><Icons.Doodle className='w-auto h-20 sm:h-28 lg:h-32 fill-emah absolute top-1 lg:top-2 my-auto -left-9 sm:-left-16 lg:-left-20 -z-10' />No necesitas más ni mejor marketing</span>
               </Balancer>
               <Balancer as='p' className='sm:text-xl text-muted-foreground tracking-wider leading-relaxed'>
                 Impulsamos a emprendedores y empresarios a consolidar su modelo de negocio, ofreciendo productos intangibles de alto valor agregado para sus clientes.
@@ -32,7 +32,7 @@ export default function Home () {
           </div>
         </div>
         <video
-          className='max-w-7xl w-full h-auto mt-16 md:mt-24 lg:mt-32 object-cover object-center aspect-video xl:mx-auto xl:border-4 xl:border-zinc-900 xl:rounded-[14px] z-10 relative'
+          className='max-w-7xl w-full h-auto mt-16 md:mt-24 object-cover object-center aspect-video xl:mx-auto xl:border-4 xl:border-zinc-900 xl:rounded-[14px] z-10 relative'
           width={1920}
           height={1080}
           controls={false}
