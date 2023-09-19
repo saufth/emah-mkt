@@ -73,16 +73,15 @@
 }
 
 @layer utilities {
-  .text-h {
-    @apply text-transparent bg-clip-text bg-gradient-to-t from-black to-zinc-500 dark:from-zinc-400 dark:to-white px-px;
-  }
-
   .text-h1 {
-    @apply leading-none text-5xl sm:text-6xl lg:text-7xl -tracking-wide lg:leading-[5rem] font-black;
+    @apply leading-none text-[3.25rem] sm:text-7xl lg:text-[5rem] font-black;
   }
 
   .text-h2 {
     @apply text-[26px] sm:text-4xl font-bold text-h;
   }
 
+ .text-h {
+    @apply text-transparent bg-clip-text bg-gradient-to-t from-black to-zinc-500 dark:from-zinc-400 dark:to-white px-px;
+  }
 }

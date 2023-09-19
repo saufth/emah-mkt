@@ -13,16 +13,16 @@ export default function Home () {
   return (
     <>
       <section className='relative dark:bg-gradient-to-b dark:from-black dark:via-[#222222] dark:to-[#222222] lg:pb-12'>
-        <div className='max-w-7xl px-4 md:px-6 mx-auto pt-4 sm:pt-24 relative z-10'>
-          <div className='flex flex-col items-center gap-y-6'>
-            <Chip className='sm:text-lg py-3.5 sm:py-4 px-1 sm:px-1.5 border-1 bg-secondary' variant='bordered'>
-              <span><span className='text-emah font-bold'>-mkt</span>+hacks</span>
+        <div className='max-w-7xl px-4 md:px-6 mx-auto pt-4 sm:pt-16 relative z-10'>
+          <div className='flex flex-col items-center gap-y-8'>
+            <Chip className='py-3.5 px-1 border-1 bg-secondary' variant='bordered'>
+              <span><span className='text-emah font-semibold'>-mkt</span>+hacks</span>
             </Chip>
             <div className='font-cairo text-center space-y-6'>
               <Balancer as='h1' className='relative'>
-                <span className='relative text-h1 text-h'><Icons.Doodle className='w-auto h-20 sm:h-28 lg:h-32 fill-emah absolute top-1 lg:top-2 my-auto -left-12 sm:-left-16 lg:-left-20 -z-10' />No necesitas más ni mejor marketing</span>
+                <span className='relative text-h1 text-h'><Icons.Doodle className='w-auto h-20 sm:h-28 lg:h-32 fill-emah absolute top-1 lg:top-2 my-auto -left-9 sm:-left-12 lg:-left-16 -z-10' />No necesitas más ni mejor marketing</span>
               </Balancer>
-              <Balancer as='p' className='text-lg sm:text-xl text-muted-foreground tracking-wider leading-relaxed'>
+              <Balancer as='p' className='sm:text-xl text-muted-foreground tracking-wider leading-relaxed'>
                 Impulsamos a emprendedores y empresarios a consolidar su modelo de negocio, ofreciendo productos intangibles de alto valor agregado para sus clientes.
               </Balancer>
             </div>
@@ -56,8 +56,8 @@ export default function Home () {
       <section className='dark:bg-black border-b sm:border-y'>
         <div className='max-w-7xl mx-auto py-12 lg:py-24 px-4 md:px-6 space-y-12 sm:space-y-16'>
           <div className='space-y-4 sm:space-y-6 text-center'>
-            <Balancer as='h2' className='[&>span]:text-h text-h2'>
-              <span>Lorem ipsum</span> <span>dolor sit amet</span>
+            <Balancer as='h2'>
+              <span className='text-h text-h2'>Lorem ipsum dolor sit amet</span>
             </Balancer>
             <Balancer as='p' className='text-muted-foreground'>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid esse cupiditate totam ullam quod sunt recusandae porro nobis, illum eos.
