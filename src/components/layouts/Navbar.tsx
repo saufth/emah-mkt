@@ -1,11 +1,20 @@
 'use client'
-import { Navbar as NavbarPrimitive, NavbarBrand, NavbarContent, NavbarItem, Link } from '@nextui-org/react'
+import { Navbar as NextUINavbar, NavbarBrand, NavbarContent, NavbarItem, Link } from '@nextui-org/react'
 import { Icons } from '@/components/Icons'
 import { ThemeToggle } from '@/components/layouts/ThemeToggle'
+import { useMotionValueEvent, useScroll } from 'framer-motion'
+import { useState } from 'react'
 
 export default function Navbar () {
+  const { scrollY } = useScroll()
+  const [isOnTop, setIsOnTop] = useState(true)
+
+  useMotionValueEvent(scrollY, 'change', (latestScrollY) => {
+    setIsOnTop(latestScrollY > 0)
+  })
+
   return (
-    <NavbarPrimitive className='sm:py-2' maxWidth='xl'>
+    <NextUINavbar className='py-1 sm:py-2 bg-black/0' maxWidth='2xl' isBordered={isOnTop}>
       <NavbarBrand>
         <Link href='/'>
           <Icons.Logoname className='w-auto h-9 fill-primary hidden sm:block' />
@@ -34,6 +43,6 @@ export default function Navbar () {
           <ThemeToggle />
         </NavbarItem>
       </NavbarContent>
-    </NavbarPrimitive>
+    </NextUINavbar>
   )
 }

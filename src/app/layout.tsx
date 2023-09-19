@@ -1,5 +1,6 @@
 // Components
 import ThemeProvider from '@/components/layouts/ThemeProvider'
+import NextUIProvider from '@/components/layouts/NextUIProvider'
 // Utils
 import { cn } from '@/lib/utils'
 // Config
@@ -11,7 +12,6 @@ import { type Metadata } from 'next'
 import { fontCairo } from '@/lib/fonts'
 // Styles
 import './globals.css'
-import NextUIProvider from '@/components/layouts/NextUIProvider'
 
 export const metadata: Metadata = {
   title: {
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 export default function RootLayout ({ children }: LayoutProps) {
   return (
     <html lang='es' suppressHydrationWarning>
-      <body className={cn(fontCairo.variable, 'min-h-screen bg-background antialiased')}>
+      <body className={cn(fontCairo.variable, 'min-h-screen bg-background antialiased dark:bg-black')}>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
           <NextUIProvider>
             {children}
