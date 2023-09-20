@@ -18,11 +18,11 @@ export default function Video () {
       >
         <source src='/video/emah.mp4' type='video/mp4' />
       </video>
-      <div className='w-full p-4 sm:absolute bottom-0 left-0 flex justify-end items-center'>
-        <Button size='sm' variant='light' color='primary'>
+      <div className='w-full p-3 sm:absolute bottom-0 left-0 flex justify-end items-center gap-x-2'>
+        <Button size='sm' variant='light' className='sm:text-white'>
           Descartar
         </Button>
-        <Button size='sm' color='primary'>
+        <Button size='sm' color='primary' className='sm:bg-white sm:text-black'>
           Ver video
         </Button>
       </div>
