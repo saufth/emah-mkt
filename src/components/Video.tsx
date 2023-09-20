@@ -32,6 +32,7 @@ export default function Video () {
             disablePictureInPicture
             controlsList='nodownload noplaybackrate'
             onContextMenu={preventContextMenu}
+            ref={videoRef}
           >
             <source src='/video/emah.mp4' type='video/mp4' />
           </video>
