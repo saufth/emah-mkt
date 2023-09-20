@@ -12,7 +12,7 @@ const Meteors = dynamic(() => import('@/components/Meteors'), { ssr: false })
 export default function Home () {
   return (
     <>
-      <section className='relative dark:bg-gradient-to-b dark:from-black dark:via-zinc-950 dark:to-zinc-900 lg:pb-24 space-y-6 sm:space-y-12'>
+      <section className='relative dark:bg-gradient-to-b dark:from-black dark:via-zinc-950 dark:to-zinc-900 lg:pb-24 sm:space-y-12'>
         <div className='max-w-7xl px-4 md:px-6 mx-auto pt-4 sm:pt-24 relative z-10'>
           <div className='flex flex-col items-center gap-y-8'>
             <Chip className='py-3.5 px-1 border-1 bg-secondary' variant='bordered'>
