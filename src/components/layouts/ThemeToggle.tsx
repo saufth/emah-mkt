@@ -11,6 +11,7 @@ export function ThemeToggle () {
   return (
     <Button
       isIconOnly
+      variant='light'
       onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
     >
       <SunIcon

@@ -138,9 +138,9 @@ export const Icons = {
             d='M99.2,19.5L9.1,175.6c-11.5,20,2.8,44.9,25.9,44.9H215c23.1,0,37.4-25,25.9-44.9L150.8,19.5
               C139.4-0.5,110.7-0.5,99.2,19.5z'
           />
-          <line className='stroke-emah fill-none stroke-[3]' x1='111.9' y1='56.2' x2='46.8' y2='169.6' />
-          <line className='stroke-emah fill-none stroke-[3]' x1='204.5' y1='168.8' x2='139.3' y2='55.5' />
-          <line className='stroke-emah fill-none stroke-[3]' x1='190' y1='192' x2='60.1' y2='192' />
+          <line className='stroke-emah fill-none stroke-[6]' x1='111.9' y1='56.2' x2='46.8' y2='169.6' />
+          <line className='stroke-emah fill-none stroke-[6]' x1='204.5' y1='168.8' x2='139.3' y2='55.5' />
+          <line className='stroke-emah fill-none stroke-[6]' x1='190' y1='192' x2='60.1' y2='192' />
           <circle className='fill-emah' cx='125.1' cy='32.7' r='22.2' />
           <circle className='fill-emah' cx='217' cy='192.8' r='22.2' />
           <circle className='fill-emah' cx='33.2' cy='192.8' r='22.2' />

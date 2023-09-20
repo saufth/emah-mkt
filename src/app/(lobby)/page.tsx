@@ -12,8 +12,8 @@ const Meteors = dynamic(() => import('@/components/Meteors'), { ssr: false })
 export default function Home () {
   return (
     <>
-      <section className='relative dark:bg-gradient-to-b dark:from-black dark:via-zinc-950 dark:to-zinc-900 lg:pb-24 sm:space-y-12'>
-        <div className='max-w-7xl px-4 md:px-6 mx-auto pt-4 sm:pt-24 relative z-10'>
+      <section className='relative dark:bg-gradient-to-b dark:from-black dark:via-zinc-950 dark:to-zinc-900 lg:pb-24 space-y-8 sm:space-y-12'>
+        <div className='max-w-7xl px-4 md:px-6 mx-auto pt-8 sm:pt-24 relative z-10'>
           <div className='flex flex-col items-center gap-y-8'>
             <Chip className='py-3.5 px-1 border-1 bg-secondary' variant='bordered'>
               <div className='flex gap-x-1 items-center'>
@@ -85,8 +85,18 @@ export default function Home () {
             </Card>
           </div>
         </div>
-        {/* <video
-          className='max-w-7xl w-full h-auto mt-16 md:mt-24 object-cover object-center aspect-video xl:mx-auto xl:border-4 xl:border-zinc-900 xl:rounded-[14px] z-10 relative'
+        <div className='w-full h-full absolute top-0 dark:hidden'>
+          {/* <div className='absolute w-full lg:w-2/3 xl:w-1/3 h-sm translate top-24 right-0 left-0 mx-auto rounded-full bg-gradient-conic from-sky-300 via-blue-200 blur-2xl content-[""] opacity-10' /> */}
+          <div className='absolute w-3/4 lg:w-lg h-sm translate top-6 sm:top-24 left-0 right-0 mx-auto rounded-full bg-gradient-radial from-emah/80 via-emah/40 to-transparent blur-2xl content-[""] opacity-10' />
+        </div>
+        <div className='w-full h-full absolute top-0 overflow-hidden'>
+          <Meteors />
+        </div>
+      </section>
+      <section className='dark:bg-black border-b sm:border-y' />
+      <div className='fixed sm:right-6 lg:right-12 bottom-0 sm:bottom-6 lg:bottom-12 w-full sm:w-xs h-16 sm:h-auto border-t sm:border bg-white dark:bg-black overflow-hidden sm:rounded-[14px] z-10 flex items-center'>
+        <video
+          className='w-auto sm:w-full sm:h-auto h-full sm:aspect-video relative'
           width={1920}
           height={1080}
           controls={false}
@@ -98,16 +108,8 @@ export default function Home () {
           controlsList='nodownload noplaybackrate'
         >
           <source src='/video/emah.mp4' type='video/mp4' />
-        </video> */}
-        <div className='w-full h-full absolute top-0 dark:hidden'>
-          {/* <div className='absolute w-full lg:w-2/3 xl:w-1/3 h-sm translate top-24 right-0 left-0 mx-auto rounded-full bg-gradient-conic from-sky-300 via-blue-200 blur-2xl content-[""] opacity-10' /> */}
-          <div className='absolute w-3/4 lg:w-lg h-sm translate top-6 sm:top-24 left-0 right-0 mx-auto rounded-full bg-gradient-radial from-emah/80 via-emah/40 to-transparent blur-2xl content-[""] opacity-10' />
-        </div>
-        <div className='w-full h-full absolute top-0 overflow-hidden'>
-          <Meteors />
-        </div>
-      </section>
-      <section className='dark:bg-black border-b sm:border-y' />
+        </video>
+      </div>
     </>
   )
 }
