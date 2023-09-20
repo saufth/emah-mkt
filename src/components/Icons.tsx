@@ -1,49 +1,14 @@
 // Components
 import {
-  AlertTriangle,
-  ArrowRightCircle,
-  ArrowLeftRight,
-  CalendarCheck,
-  CircleDollarSign,
-  Check,
-  ChevronLeft,
-  ChevronRight,
-  Image,
-  Loader2,
-  Menu,
-  Moon,
-  Search,
-  ShieldCheck,
-  SunMedium,
-  Plus,
-  Truck,
-  Wrench,
-  type LucideIcon,
-  type LucideProps
-} from 'lucide-react'
-
-export type Icon = LucideIcon
+  IconMoonStars,
+  IconSunHigh
+} from '@tabler/icons-react'
+import { SVGProps } from 'react'
 
 export const Icons = {
-  Add: Plus,
-  ArrowRightCircle,
-  CalendarCheck,
-  CircleDollar: CircleDollarSign,
-  Check,
-  ChevronLeft,
-  ChevronRight,
-  Menu,
-  Moon,
-  Search,
-  ShieldCheck,
-  Spinner: Loader2,
-  Sun: SunMedium,
-  Switch: ArrowLeftRight,
-  Tool: Wrench,
-  Truck,
-  Placeholder: Image,
-  Warning: AlertTriangle,
-  Logomark: (props: LucideProps) => {
+  MoonStar: IconMoonStars,
+  Sun: IconSunHigh,
+  Logomark: (props: SVGProps<SVGSVGElement>) => {
     return (
       <svg
         width={629.2}
@@ -69,7 +34,7 @@ export const Icons = {
       </svg>
     )
   },
-  Logoname: (props: LucideProps) => {
+  Logoname: (props: SVGProps<SVGSVGElement>) => {
     return (
       <svg
         width={512}
@@ -82,7 +47,7 @@ export const Icons = {
       </svg>
     )
   },
-  Define: (props: LucideProps) => {
+  Define: (props: SVGProps<SVGSVGElement>) => {
     return (
       <svg
         width={250}
@@ -101,7 +66,7 @@ export const Icons = {
       </svg>
     )
   },
-  Integrate: (props: LucideProps) => {
+  Integrate: (props: SVGProps<SVGSVGElement>) => {
     return (
       <svg
         width={250}
@@ -123,7 +88,7 @@ export const Icons = {
       </svg>
     )
   },
-  Implement: (props: LucideProps) => {
+  Implement: (props: SVGProps<SVGSVGElement>) => {
     return (
       <svg
         width={250}
@@ -148,7 +113,7 @@ export const Icons = {
       </svg>
     )
   },
-  Proposal: (props: LucideProps) => {
+  Proposal: (props: SVGProps<SVGSVGElement>) => {
     return (
       <svg
         width={250}
@@ -167,7 +132,7 @@ export const Icons = {
       </svg>
     )
   },
-  Doodle: (props: LucideProps) => {
+  Doodle: (props: SVGProps<SVGSVGElement>) => {
     return (
       <svg
         width={545.3}
