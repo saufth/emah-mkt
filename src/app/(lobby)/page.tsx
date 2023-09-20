@@ -100,8 +100,8 @@ export default function Home () {
           <source src='/video/emah.mp4' type='video/mp4' />
         </video> */}
         <div className='w-full h-full absolute top-0 dark:hidden'>
-          <div className='absolute w-full lg:w-2/3 xl:w-1/2 h-md translate top-24 right-0 left-0 mx-auto rounded-full bg-gradient-conic from-sky-500 via-blue-200 blur-2xl content-[""] opacity-10' />
-          {/* <div className='absolute w-3/4 lg:w-2xl h-sm translate top-6 sm:top-24 left-0 right-0 mx-auto rounded-full bg-gradient-radial from-emah/60 via-emah/40 to-transparent blur-2xl content-[""] opacity-20' /> */}
+          {/* <div className='absolute w-full lg:w-2/3 xl:w-1/3 h-sm translate top-24 right-0 left-0 mx-auto rounded-full bg-gradient-conic from-sky-300 via-blue-200 blur-2xl content-[""] opacity-10' /> */}
+          <div className='absolute w-3/4 lg:w-lg h-sm translate top-6 sm:top-24 left-0 right-0 mx-auto rounded-full bg-gradient-radial from-emah/80 via-emah/40 to-transparent blur-2xl content-[""] opacity-10' />
         </div>
         <div className='w-full h-full absolute top-0 overflow-hidden'>
           <Meteors />
