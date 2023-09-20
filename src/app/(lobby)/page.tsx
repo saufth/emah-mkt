@@ -6,6 +6,7 @@ import { Balancer } from 'react-wrap-balancer'
 import dynamic from 'next/dynamic'
 import { Icons } from '@/components/Icons'
 import { Card, CardBody, CardHeader } from '@/components/ui/Card'
+import Video from '@/components/Video'
 
 const Meteors = dynamic(() => import('@/components/Meteors'), { ssr: false })
 
@@ -51,9 +52,11 @@ export default function Home () {
                     <Icons.Define className='w-full h-auto' />
                   </div>
                 </CardHeader>
-                <CardBody className='space-y-2 border-t'>
+                <CardBody className='space-y-2 border-t dark:border-zinc-700'>
                   <h3 className='text-2xl font-semibold'>Define</h3>
-                  <Balancer as='p' className='text-sm text-muted-foreground'>Make beautiful websites regardless of your design experience.</Balancer>
+                  <Balancer as='p' className='text-sm text-muted-foreground'>
+                    Make beautiful websites regardless of your design experience.
+                  </Balancer>
                 </CardBody>
               </div>
             </Card>
@@ -64,7 +67,7 @@ export default function Home () {
                     <Icons.Integrate className='w-full h-auto' />
                   </div>
                 </CardHeader>
-                <CardBody className='space-y-2 border-t'>
+                <CardBody className='space-y-2 border-t dark:border-zinc-700'>
                   <h3 className='text-2xl font-semibold'>Integra</h3>
                   <Balancer as='p' className='text-sm text-muted-foreground'>Make beautiful websites regardless of your design experience.</Balancer>
                 </CardBody>
@@ -77,7 +80,7 @@ export default function Home () {
                     <Icons.Implement className='w-full h-auto' />
                   </div>
                 </CardHeader>
-                <CardBody className='space-y-2 border-t'>
+                <CardBody className='space-y-2 border-t dark:border-zinc-700'>
                   <h3 className='text-2xl font-semibold'>Implementa</h3>
                   <Balancer as='p' className='text-sm text-muted-foreground'>Make beautiful websites regardless of your design experience.</Balancer>
                 </CardBody>
@@ -93,23 +96,7 @@ export default function Home () {
           <Meteors />
         </div>
       </section>
-      <section className='dark:bg-black border-b sm:border-y' />
-      <div className='fixed sm:right-6 lg:right-12 bottom-0 sm:bottom-6 lg:bottom-12 w-full sm:w-xs h-16 sm:h-auto border-t sm:border bg-white dark:bg-black overflow-hidden sm:rounded-[14px] z-10 flex items-center'>
-        <video
-          className='w-auto sm:w-full sm:h-auto h-full sm:aspect-video relative'
-          width={1920}
-          height={1080}
-          controls={false}
-          autoPlay
-          muted
-          loop
-          playsInline
-          disablePictureInPicture
-          controlsList='nodownload noplaybackrate'
-        >
-          <source src='/video/emah.mp4' type='video/mp4' />
-        </video>
-      </div>
+      <Video />
     </>
   )
 }
