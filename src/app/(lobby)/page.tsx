@@ -29,7 +29,7 @@ export default function Home () {
                 Impulsamos a emprendedores y empresarios a consolidar su modelo de negocio, ofreciendo productos intangibles de alto valor agregado para sus clientes.
               </Balancer>
             </div>
-            <Button className='mt-2 sm:mt-4 p-4 font-medium text-secondary text-lg' color='primary' radius='sm' size='lg'>
+            <Button className='w-full sm:w-auto mt-2 sm:mt-4 p-4 font-medium text-secondary text-lg' color='primary' radius='sm' size='lg'>
               Contáctanos
             </Button>
           </div>
